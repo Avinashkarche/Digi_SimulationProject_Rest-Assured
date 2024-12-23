@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-23T18:34:27 IST" name="Default suite" finished-at="2024-12-23T18:34:33 IST" duration-ms="5674">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-12-23T18:34:27 IST" name="Default test" finished-at="2024-12-23T18:34:33 IST" duration-ms="5674">
+      <class name="runner.DigiSimulationRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:27 IST" name="setUpClass" finished-at="2024-12-23T18:34:27 IST" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f5167f0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-23T18:34:29 IST" duration-ms="1470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if admin for ProductStatus login API is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validate ProductStatus api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-23T18:34:29 IST" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if ProductStatusAdd  API is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validate ProductStatus api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-23T18:34:29 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if ProductStatusGetAll  API is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validate ProductStatus api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-23T18:34:30 IST" duration-ms="551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if ProductStatusById  API is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validate ProductStatus api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-23T18:34:30 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if ProductStatusUpdate  API is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validate ProductStatus api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-23T18:34:30 IST" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if ProductStatusDelete  API is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validate ProductStatus api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.DigiSimulationRunner@6f10d5b6]" started-at="2024-12-23T18:34:30 IST" name="tearDownClass" finished-at="2024-12-23T18:34:33 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.DigiSimulationRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
