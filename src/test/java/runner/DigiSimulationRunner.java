@@ -5,17 +5,16 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions
 (
 		
-		features = {"C:\\Users\\Pc\\eclipse-workspace\\DigisimulationAPIsRestAssured\\src\\test\\resources\\digisimulationfeature"},
+		features = {"C:\\Users\\Pc\\eclipse-workspace\\DigisimulationAPIsRestAssured\\src\\test\\resources\\digisimulationfeature\\Productwishlist.feature"},
 		glue = {"steps"},
 		plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
 		tags="@Smoke",
 		publish = true
+		
 	
 )
 public class DigiSimulationRunner extends AbstractTestNGCucumberTests {
 	
-	
-	
-	
 
+	
 } 
