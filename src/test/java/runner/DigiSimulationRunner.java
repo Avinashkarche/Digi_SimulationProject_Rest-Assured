@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions
 (
 		
-		features = {"C:\\Users\\Pc\\eclipse-workspace\\DigisimulationAPIsRestAssured\\src\\test\\resources\\digisimulationfeature"},
+		features = {"C:\\Users\\Pc\\eclipse-workspace\\DigisimulationAPIsRestAssured\\src\\test\\resources"},
 		glue = {"steps"},
 		plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
 		tags="@Smoke",

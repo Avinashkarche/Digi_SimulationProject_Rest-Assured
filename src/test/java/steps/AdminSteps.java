@@ -41,8 +41,8 @@ public class AdminSteps {
 
 	@When("user calls with super admin POST http request")
 	public void user_calls_with_super_admin_post_http_request() {
-		response = res. when()
-		        
+		
+		          response = res. when()    
 	              .post("/Admin/adminlogin");
 	}
 	
@@ -275,6 +275,8 @@ Response finalresponse = response.then()
 		mainobject.put("password",cr.readConfigData("passwordOfPlayerresgisteredByAdmin") );
 		mainobject.put("userType",cr.readConfigData("userTypeOfPlayerresgisteredByAdmin") );
 		mainobject.put("name",cr.readConfigData("nameOfPlayerresgisteredByAdmin") );
+		mainobject.put("dob", cr.readConfigData("nameOfPlayertRegisteredDateOfBirth"));
+		mainobject.put("type", cr.readConfigData("nameOfPlayertRegisteredTyepe"));
 		
 		
 	    res=given()

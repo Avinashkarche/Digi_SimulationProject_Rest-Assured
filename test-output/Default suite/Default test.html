@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>94/11/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 31 15:21:42 IST 2024</td>
+<td>Started on:</td><td>Thu Feb 20 11:35:36 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9759 ms)</td>
+<tr><td>Total time:</td><td>87 seconds (87722 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,517 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if super admin update the child admin username and mobile number API is working", "validate admin API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_call_should_executed_with_status_code(AdminSteps.java:209)
+	at ✽.API call should executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1468431766", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1468431766'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_call_should_executed_with_status_code(AdminSteps.java:209)
+	at ✽.API call should executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if super admin update the child admin password API is working", "validate admin API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_call_should_be_executedfor_change_admin_password_with_status_code(AdminSteps.java:254)
+	at ✽.API call should be executedfor change admin password with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace343534938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace343534938'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_call_should_be_executedfor_change_admin_password_with_status_code(AdminSteps.java:254)
+	at ✽.API call should be executedfor change admin password with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:31)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if super admin delete the registered admin API is working", "validate admin API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_child_admin_call_be_executed_with_status_code(AdminSteps.java:480)
+	at ✽.API  child admin call be executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:61)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2036538800", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2036538800'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_child_admin_call_be_executed_with_status_code(AdminSteps.java:480)
+	at ✽.API  child admin call be executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:61)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddOffer API is working", "verify offermaster API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;409&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.OfferMasterSteps.add_offer_api_call_executed_with_status_code(OfferMasterSteps.java:118)
+	at ✽.AddOffer API call executed with 201 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Offermaster.feature:14)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1048435582", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1048435582'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;409&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.OfferMasterSteps.add_offer_api_call_executed_with_status_code(OfferMasterSteps.java:118)
+	at ✽.AddOffer API call executed with 201 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Offermaster.feature:14)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if super admin resgister child admin API is working", "validate admin API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;409&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.AdminSteps.api_call_executed_with_the_status_code(AdminSteps.java:117)
+	at ✽.API call executed with the 201 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1619402333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1619402333'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;409&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.AdminSteps.api_call_executed_with_the_status_code(AdminSteps.java:117)
+	at ✽.API call executed with the 201 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:13)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if super admin login child admin  API is working", "validate admin API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.AdminSteps.api_call_should_be_executed_with_status_code(AdminSteps.java:156)
+	at ✽.API call should be executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1607788159", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1607788159'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.AdminSteps.api_call_should_be_executed_with_status_code(AdminSteps.java:156)
+	at ✽.API call should be executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:19)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetProductByTester API is working", "validate Productmaster  API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.ProductMasterSteps.get_product_by_tester_api_call_executed_with_status_code(ProductMasterSteps.java:695)
+	at ✽.GetProductByTester API call executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/ProductMaster.feature:117)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1968974256", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1968974256'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.ProductMasterSteps.get_product_by_tester_api_call_executed_with_status_code(ProductMasterSteps.java:695)
+	at ✽.GetProductByTester API call executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/ProductMaster.feature:117)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if child admin login the player API is working", "validate admin API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.AdminSteps.api_login_player_call_executed_with_status_code(AdminSteps.java:347)
+	at ✽.API login player call executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace208157941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208157941'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.AdminSteps.api_login_player_call_executed_with_status_code(AdminSteps.java:347)
+	at ✽.API login player call executed with 200 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:43)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if child admin register the player API is working", "validate admin API"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_register_player_call_executed_with_status_code(AdminSteps.java:302)
+	at ✽.API register player call executed with 201 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace538325000", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace538325000'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected content-type &quot;JSON&quot; doesn&apos;t match actual content-type &quot;&quot;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at steps.AdminSteps.api_register_player_call_executed_with_status_code(AdminSteps.java:302)
+	at ✽.API register player call executed with 201 status code(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:37)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if child admin update the register player API is working", "validate admin API"</td>
+<td><div><pre>java.lang.IllegalArgumentException: parameterValue cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:515)
+	at steps.AdminSteps.update_player_api_payload(AdminSteps.java:381)
+	at ✽.update player API payload(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:47)
+</pre></div><a href='#' onClick='toggleBox("stack-trace497930610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace497930610'><pre>java.lang.IllegalArgumentException: parameterValue cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:515)
+	at steps.AdminSteps.update_player_api_payload(AdminSteps.java:381)
+	at ✽.update player API payload(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:47)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if child admin delete the register player API is working", "validate admin API"</td>
+<td><div><pre>java.lang.IllegalArgumentException: parameterValue cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:515)
+	at steps.AdminSteps.get_a_delete_api_payload(AdminSteps.java:421)
+	at ✽.get a delete API payload(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:53)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1081132287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1081132287'><pre>java.lang.IllegalArgumentException: parameterValue cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:515)
+	at steps.AdminSteps.get_a_delete_api_payload(AdminSteps.java:421)
+	at ✽.get a delete API payload(file:///C:/Users/Pc/eclipse-workspace/DigisimulationAPIsRestAssured/src/test/resources/digisimulationfeature/Admin.feature:53)
+</pre></div></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,27 +587,472 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProductType  API is working", "validate Product api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProduct DeleteProduct API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProduct admin login API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if UpdateProduct API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetProductTypeById  API is working", "validate Product api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if admin for product master login API is working", "validate Product api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if UserTypeMasterGetById API is working", "verify the UserTypeMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
 <td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductCartUpdate API is working", "validate ProductCart API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if UpdateOffer API is working", "verify offermaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductCartAdd API is working", "validate ProductCart API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if player change password API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProduct GetProductById API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MenuMasterGetById API is working", "verify the MenuMaster API"</td>
+<td></td>
+<td>2</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify update user profile API is working", "validate player api"</td>
 <td></td>
 <td>0</td>
 <td>runner.DigiSimulationRunner@4a8355dd</td></tr>
 <tr>
 <td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductCart player login API is working", "validate ProductCart API"</td>
 <td></td>
-<td>1</td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify AssignOfferGetAll API is working", "validate AssignOffer API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify username check api is working", "validate player api"</td>
+<td></td>
+<td>3</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetAllOrderByUser API is working", "validate ProductOrder api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductWishListGetAll API is working", "validate ProductWishList API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MyGameGetByUserIdForMobile API is working", "validate MyGameAndScore api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductWishList player login API is working", "validate ProductWishList API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MyGameGetByUserId API is working", "validate MyGameAndScore api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if super admin get all player API is working", "validate admin API"</td>
+<td></td>
+<td>3</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MyGameAndScore player login API is working", "validate MyGameAndScore api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetAllGameScoreByUserId API is working", "validate MyGameAndScore api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if BundleProductUpdate API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductOrderSingleBuy API is working", "validate ProductOrder api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MenuMasterGetAll API is working", "verify the MenuMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductOrder API is working", "validate ProductOrder api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if RemoveWishList API is working", "validate ProductWishList API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify superadmin PlayerRoleUpdate  API is working", "validate admin API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify player forgetByEmail API is working", "validate player api"</td>
+<td></td>
+<td>3</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify user registration with same mobile number and same mail id user register API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if admin login API is working", "verify offermaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetOfferById API is working", "verify offermaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductStatusDelete  API is working", "validate ProductStatus api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if DeleteProduct API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
 <td>runner.DigiSimulationRunner@4a8355dd</td></tr>
 <tr>
 <td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductCartGetAll API is working", "validate ProductCart API"</td>
+<td></td>
+<td>1</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if admin for ProductStatus login API is working", "validate ProductStatus api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify DeleteAssignOffer API is working", "validate AssignOffer API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductOrder admin login API is working", "validate ProductOrder api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetAllProductType  API is working", "validate Product api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify user PlayerLastLoginDetails API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify PlayerProfileDetailsGetByUserId API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProductByGameList API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MenuMasterAdd API is working", "verify the MenuMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetProductPublic API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify PlayerRoleUpdate  API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if adminforusertype login API is working", "verify the UserTypeMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if StateGetAllByCountryId API is working", "verify the RegionMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductWishListAdd API is working", "validate ProductWishList API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProduct API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if super admin login API is working", "validate admin API"</td>
+<td></td>
+<td>1</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if TrendingGameAndBundleToggle API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if UpdateProductType  API is working", "validate Product api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if CountryGetAll API is working", "verify the RegionMaster API"</td>
+<td></td>
+<td>3</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if player login API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify player wrong otp  API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MenuMasterDelete API is working", "verify the MenuMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify user changeDisplayName with wrong body format API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if OfferMaster API is working", "verify offermaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductStatusById  API is working", "validate ProductStatus api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if DeleteProductType  API is working", "validate Product api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if DeleteOffer API is working", "verify offermaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetProductById API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProduct UpdateProduct API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductStatusGetAll  API is working", "validate ProductStatus api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if adminforMenuMaster login API is working", "verify the MenuMaster API"</td>
+<td></td>
+<td>9</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify AssignOffer API is working", "validate AssignOffer API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify user PlayerAccountDelete API is working", "validate player api"</td>
+<td></td>
+<td>3</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductStatusIdUpdate API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify player correct otp  API is working", "validate player api"</td>
+<td></td>
+<td>1</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if playerforproduct login API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if UserTypeMasterGetAll API is working", "verify the UserTypeMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if AddProduct GetAllProduct API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify user generateOTP API is working", "validate player api"</td>
+<td></td>
+<td>3</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetAllProduct API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if UserTypeMasterAdd API is working", "verify the UserTypeMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify player generate email otp  API is working", "validate player api"</td>
+<td></td>
+<td>3</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify AssignOffergetById API is working", "validate AssignOffer API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify at change mail time giving wrong OTP playerChangeEmail API is working", "validate player api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if DistrictGetAllByStateId API is working", "verify the RegionMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductStatusAdd  API is working", "validate ProductStatus api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetAllOrder API is working", "validate ProductOrder api"</td>
+<td></td>
+<td>2</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if GetProductByIdPublic API is working", "validate Productmaster  API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if CountryCallingCode API is working", "verify the RegionMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if MenuMasterUpdate API is working", "verify the MenuMaster API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if CityGetAllByStateId API is working", "verify the RegionMaster API"</td>
 <td></td>
 <td>0</td>
 <td>runner.DigiSimulationRunner@4a8355dd</td></tr>
 <tr>
 <td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductCartDelete API is working", "validate ProductCart API"</td>
 <td></td>
-<td>3</td>
+<td>0</td>
 <td>runner.DigiSimulationRunner@4a8355dd</td></tr>
 <tr>
-<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductCartAdd API is working", "validate ProductCart API"</td>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify UpdateAssignOffer API is working", "validate AssignOffer API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductStatusUpdate  API is working", "validate ProductStatus api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if ProductOrder player login API is working", "validate ProductOrder api"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if admin for AssignOffer login API is working", "validate AssignOffer API"</td>
+<td></td>
+<td>0</td>
+<td>runner.DigiSimulationRunner@4a8355dd</td></tr>
+<tr>
+<td title='runner.DigiSimulationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DigiSimulationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify if UserTypeMasterDelete API is working", "verify the UserTypeMaster API"</td>
 <td></td>
 <td>0</td>
 <td>runner.DigiSimulationRunner@4a8355dd</td></tr>
